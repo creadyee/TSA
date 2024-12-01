@@ -1,0 +1,86 @@
+.box{
+    border: black solid 3px;
+    width: 500px;
+    height: 300px;
+    min-width: 500px;
+    margin: 20px;
+    background-color:var(--box);
+    text-align: center;
+    color:white;
+    }
+    .box img{
+        max-width: 500px;
+        max-height: 200px;
+    }
+    .box1 img{
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin-right: 40px;
+    }
+    .box1{
+        margin-top: 20px;
+    }
+    .box2{
+        border: var(--background) solid 2px;
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        margin: 20px;
+        background-color: var(--background);
+        color: white;
+    }
+    #box2{
+        max-height: 200px;
+        min-width: 260px;
+        min-height: 200px;
+        border: var(--background) solid 7px;
+        background-color: var(--box);
+    }
+    .menu{
+    display: flex;
+    overflow-x: scroll;
+    
+    }
+    main{
+        padding: 10px;
+    }
+    #Category{
+        padding: 10px;
+        background-color:var(--background);
+        border-radius: 5px;
+        margin-left: 20px;
+        font-size: 17px;
+        color: white;
+        width: 150px;
+        text-align: center;
+    }
+    #level{
+        padding: 10px;
+        background-color:var(--background);
+        border-radius: 5px;
+        margin-left: 20px;
+        font-size: 17px;
+        width: 150px;
+        text-align: center;
+        color: white;
+    }
+    .word-block {
+        border: 2px var(--box) solid;
+        display: flex;
+        width: 190px;
+        background-color:var(--background) ;
+        padding: 10px;
+      }
+    .word-block img{
+        border: 2px solid white;
+        margin-right: 10px;
+    }
+    #input {
+        display: none;
+        position: absolute;
+        background: white; 
+        border: 1px solid #ccc; 
+        z-index: 100; 
+        display: none;
+      }

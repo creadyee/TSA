@@ -1,0 +1,67 @@
+#Time{
+    padding: 10px;
+    background-color:var(--background);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+    color: white;
+    width: 150px;
+    text-align: center;
+}
+#finder{
+    margin-left: 50px;
+}
+#go{
+    font-size: 17px;
+    padding: 10px;
+    background-color:var(--background);
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+}
+#go a{
+    color: white;
+}
+a{
+    color: var(--box);
+    text-decoration: none;
+}
+.oks{
+    display:flex;
+    display: flex;
+    overflow-x: scroll;
+}
+#box2 img{
+    height: 200px;
+}
+#results div {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+
+#input{
+
+    background-color: var(--background);
+    width: 130px;
+    display:grid;
+    margin-left: 55px;
+    padding-right:17px;
+    border: var(--box) solid 2px; 
+    position: absolute;
+    z-index: 0;
+}
+#input p{
+clear: both;
+text-align: center;
+margin-top: 1px;
+text-size-adjust: 10px;
+color: white;
+}
+#border{
+    border: var(--background) solid 10px;
+}
+a{
+    color: white;
+}

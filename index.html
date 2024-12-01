@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Recommendations</title>
+    <script type="text/javascript" src="cookie.js"></script>
+</head>
+
+<body onload="checkCookie()">
+    <div>
+        <div id="title">
+            
+            <div class="HStack">
+                <label>Search</label>          
+                <input id="find" type="text" placeholder="Search">
+                <div id="input"></div>
+            </div>
+            <p id="yes">LOADING...</p>
+            <h1>RecipeINATOR</h1>
+            <div id="img"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKkf_W9xuuXIzW472czV6p1Q5q_TZmLBpzhQ&s">
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="about/index.html">About</a></li>
+                    <li><a href="#">Tik Tok</a></li>
+                    <li><a href="#">Newsletter-Subscribe</a></li>
+                    <li><a href="#">app</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <main>
+            <h1>Recommendations</h1>
+
+            <div class="menu">
+                <div class="box"><img
+                        src="img/smooti.webp">
+                    <div id="text">
+                        <h1>Breakfast Smoothie</h1>
+                    </div>
+                </div>
+                <div class="box"><img
+                        src="img/beef.webp">
+                    <div id="text">
+                        <h1>ground-beef-gyros</h1>
+                    </div>
+                </div>
+                <div class="box"><img
+                        src="img/chicken.webp">
+                    <div id="text">
+                        <h1>Southern Fried Chicken</h1>
+                    </div>
+                </div>
+                <div class="box"><img
+                        src="img/cake.webp">
+                    <div id="text">
+                        <h1>Chocolat Peanut Butter Pie</h1>
+                    </div>
+                </div>
+            </div>
+            <h1>FInd a Recipe</h1>
+            <div id="finder">
+                <label>Filter By</label>
+                <select name="Caregory" id="Category">
+                    <option value="">Any Category</option>
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Dinner">Dinner</option>
+                    <option value="Desserts">Desserts</option>
+                    <option value="Drinks/snacks">Drinks/snacks</option>
+                </select>
+                <select name="Level" id="level">
+                    <option value="">Skill Level</option>
+                    <option value="Easy">Easy (Level 1)</option>
+                    <option value="Medium">Medium (level 2)</option>
+                    <option value="Hard">Hard (Level 3)</option>
+                </select>
+                <select name="Time" id="Time">
+                    <option value="">Total Time</option>
+                    <option value="15">&lt; 15 min</option>
+                    <option value="30">&lt; 30 min</option>
+                    <option value="45">&lt; 45 min</option>
+                    <option value="1">&lt; 1 hour</option>
+                </select>
+                <button id="go"><a href="RESULT/index.html" onclick="number()">Go!</a></button>
+                <h1>CLICK GO!</h1>
+                <h1>just do it </h1>
+                <hr width="75%">
+            </div>
+            <div class="box1">
+                <img
+                    src="img/pankakes.webp">
+                <h1>Pancakes</h1>
+                <p>Caregory: Breakfast</p>
+                <p>Skill Level 1 (Easy)</p>
+                <p>Prep Time 5 min</p>
+                <p>Cook Time 5 min</p>
+            </div>
+            
+            <div class="box1">
+                <img
+                    src="img/banabread.webp">
+                <h1>Banana-Bread</h1>
+                <p class="Category">Category: Breakfast</p>
+                <p class="skill">Skill Level: 2 (Medium)</p>
+                <p class="prep">Prep Time: 15 min</p>
+                <p class="Time">Cook Time: 55 min</p>
+            </div>
+
+            <div class="box1">
+                <img
+                    src="img/pizza.webp">
+                <h1>Pizza-Muffins</h1>
+                <p>Caregory: Lunch</p>
+                <p>Skill Level 2 (Medium)</p>
+                <p>Prep Time 2 min</p>
+                <p>Cook Time 5 min</p>
+            </div>
+            <div class="oks">
+                <div class="box2">
+                    <div id="box2">
+                        <div id="border">
+                            <img src="img/lasang.webp">
+                        </div>
+                    </div>
+                    <h2>lasagna</h2>
+                </div>
+                <div class="box2">
+                    <div id="box2">
+                        <div id="border">
+                            <img src="img/slaed.webp">
+                        </div>
+                    </div>
+                    <h2>Greek salad</h2>
+                </div>
+                <div class="box2">
+                    <div id="box2">
+                        <div id="border">
+                            <img src="img/mac-n-cheese.webp">
+                        </div>
+                    </div>
+
+                    <h2>Macaroni And Cheese</h2>
+                </div>
+                <div class="box2">
+                    <div id="box2"><img
+                            src="img/stabary pie.webp">
+                    </div>
+
+                    <h2>Strawberry Pie</h2>
+                </div>
+                <div class="box2">
+                    <div id="box2"><img
+                            src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_iw/v1/img/recipes/38/74/8/w9bxTQORnyLRHI3sHTnA_image.jpeg">
+                    </div>
+
+                    <h2>Chinese Fried Rice</h2>
+                </div>
+                <div class="box2">
+                    <div id="box2"><img
+                            src="img/buger.webp">
+                    </div>
+
+                    <h2>Sloppy Joes</h2>
+                </div>
+
+            </div>
+        </main>
+</body>
+    <head>
+        <link rel="stylesheet" href="syle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Style/home/one.css">
+        <link rel="stylesheet" href="Style/home/two.css">
+        <link rel="stylesheet" href="Style/home/three.css">
+        <script src="search.js"></script>
+    </head>
+</html>
+
+
